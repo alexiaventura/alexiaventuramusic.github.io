@@ -4,6 +4,7 @@ import Music from './Music.jsx';
 import Photography from './Photography.jsx';
 import Honors from './Honors.jsx';
 import Contact from './Contact.jsx';
+import './Layout.css'
 
 function Layout() {
     return (
