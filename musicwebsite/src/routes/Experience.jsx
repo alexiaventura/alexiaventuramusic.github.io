@@ -14,8 +14,8 @@ function Experience() {
                 <h1>EXPERIENCE</h1>
 
                 <div className="accordion-section">
-                    <h3 onClick={() => toggleSection('professional')} className="accordion-header">PROFESSIONAL EXPERIENCE</h3>
-                    {openSection === 'professional' && (
+                    <h3 onClick={() => toggleSection('roles')} className="accordion-header">ROLES</h3>
+                    {openSection === 'roles' && (
                         <div className="accordion-content">
                             <p>🎵 Artist Partner Group (APG): Business Affairs/Production Intern (6 months)</p>
                             <p>🎵 KUCI 88.9 FM in Irvine: Music Show Host (3 months), Staff Member (3 years)</p>
@@ -54,6 +54,18 @@ function Experience() {
                             <p>🎵 Artistic photography</p>
                             <p>🎵 DJing/Making playlists</p>
                             <p>🎵 Perfect pitch 😎</p>
+                        </div>
+                    )}
+                </div>
+
+                <div className="accordion-section">
+                    <h3 onClick={() => toggleSection('honors')} className="accordion-header">HONORS</h3>
+                    {openSection === 'honors' && (
+                        <div className="accordion-content">
+                            <p>🎵 The Drake Gives/Alec Glasser UCI Music Scholarship Recipient (2023-2024)</p>
+                            <p>🎵 UC Irvine 3rd Annual Scholarship Appreciation Event Guest Speaker</p>
+                            <p>🎵 Nominated twice by UC Irvine for the Donald A. Strauss Scholarship</p>
+                            <p>🎵 Bachelor's degree in Computer Science (no music major) 😎</p>
                         </div>
                     )}
                 </div>
