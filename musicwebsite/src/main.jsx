@@ -5,7 +5,6 @@ import './index.css'
 import App from './App.jsx'
 import Experience from './routes/Experience.jsx';
 import Layout from './routes/Layout'
-import Music from './routes/Music.jsx';
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -13,7 +12,6 @@ createRoot(document.getElementById('root')).render(
       <Route path="/" element={<Layout />}>
         <Route index element={<App />} />
         <Route path="experience" element={<Experience />} />
-        <Route path="music" element={<Music />} />
       </Route>
     </Routes>
   </BrowserRouter>
