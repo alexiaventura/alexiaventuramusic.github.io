@@ -17,7 +17,7 @@ ul {
     margin: 0px;
     padding: 0px;
     gap: 20px;
-    z-index: 4;
+    z-index: 1000;
     justify-content: center;
 }
 
@@ -32,7 +32,7 @@ li {
 li a {
     font-family: Arial;
     color: #8D8DF6;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
 }
 

@@ -66,7 +66,7 @@ body {
 .instagram-icon {
   position: absolute;
   bottom: 20px;
-  right: 20px;
+  right: 150px;
   font-size: 2rem;
   color: white;
   opacity: 0.8;
@@ -74,5 +74,47 @@ body {
 }
 
 .instagram-icon:hover {
+  opacity: 1;
+}
+
+.spotify-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 90px;
+  font-size: 2rem;
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.spotify-icon:hover {
+  opacity: 1;
+}
+
+.tiktok-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 45px;
+  font-size: 2rem;
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.tiktok-icon:hover {
+  opacity: 1;
+}
+
+.youtube-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2rem;
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.youtube-icon:hover {
   opacity: 1;
 }
